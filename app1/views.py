@@ -3,10 +3,10 @@ from django.http import HttpResponse
 
 # Create your views here.
 def TestFun(request):
-    return HttpResponse('helooooooo')
+    return HttpResponse('HELLO')
 
 def TestAbt(request):
-    return HttpResponse('<h1>helooo test</h1>')
-   
+    return HttpResponse('<h1>HELLO</h1>')
+
 def TestContact(request):
-    return render(request,'2.html')
+    return render(request,'project2.html')
